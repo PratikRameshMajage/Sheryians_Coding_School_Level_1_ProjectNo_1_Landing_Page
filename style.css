@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#nav h3{
+    font-size: 15px;
+    border: 1.5px solid black;
+    padding: 5px 10px ;
+    border-radius: 50px;
+}
+#nav i{
+    font-size: 15px;
+    border: 1.5px solid black;
+    padding: 5px 10px ;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: white ;
+    font-weight: 500;
+}
+#nav #sign-up{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#main>h1{
+    font-size: 130px ;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-60deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-40deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+#btm-left{
+    font-size: 15px;
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+}
+#btm-right{
+    position: absolute;
+    bottom: 8%;
+    right: 3%;
+}
+#btm-right #icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+#btm-right h5{
+    font-size: 15px;
+} 
